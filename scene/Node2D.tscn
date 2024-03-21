@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scene/approximateSineWave.tscn" type="PackedScene" id=1]
+[ext_resource path="res://asset/bgblack.png" type="Texture" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 1461, 1472 )
+scale = Vector2( 5, 5 )
+texture = ExtResource( 2 )
+
+[node name="approximateSineWave" parent="." instance=ExtResource( 1 )]
